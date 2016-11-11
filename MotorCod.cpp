@@ -28,11 +28,11 @@ Carter=40;
 switch (OP){
 		case 1:
 			cout << "informaçoes da peça"<< endl;	
-			cout<<	"DESEJA COMPRAR ?";	
+			cout<<	"DESEJA COMPRAR ?"<<endl;	
 			cin>> OP2;
 					
 			while(OP2!=1&&OP2!=0){
-			cout << "opção invalida invalido , digite novamente: (1 pra sim/0 para não) : ";
+			cout << "OPÇÃO INVALIDA, DIGITE NOVAMENTE: (1 pra sim/0 para não) : ";
 			cin>>OP2;}
 				
 				
@@ -43,7 +43,110 @@ switch (OP){
 			cout <<"o valor total é "<<total<< " reais";}
 				
 			else {
-			OP=OP2;}		
+			OP=OP2;}
+			break;	
+		
+			
+		case 2:
+			cout << "informaçoes da peça"<< endl;	
+			cout<<	"DESEJA COMPRAR ?"<<endl;	
+			cin>> OP2;
+					
+			while(OP2!=1&&OP2!=0){
+			cout << "OPÇÃO INVALIDA, DIGITE NOVAMENTE: (1 pra sim/0 para não) : ";
+			cin>>OP2;}
+				
+				
+			if (OP2==1){
+			cout << "DIGITE A QUANTIDADE: ";
+			cin >> quant;
+			total=Valvula*quant;
+			cout <<"o valor total é "<<total<< " reais";}
+				
+			else {
+			OP=OP2;}
+			break;
+			
+		case 3:
+			cout << "informaçoes da peça"<< endl;	
+			cout<<	"DESEJA COMPRAR ?"<<endl;	
+			cin>> OP2;
+					
+			while(OP2!=1&&OP2!=0){
+			cout << "OPÇÃO INVALIDA, DIGITE NOVAMENTE: (1 pra sim/0 para não) : ";
+			cin>>OP2;}
+				
+				
+			if (OP2==1){
+			cout << "DIGITE A QUANTIDADE: ";
+			cin >> quant;
+			total=Pistao*quant;
+			cout <<"o valor total é "<<total<< " reais";}
+				
+			else {
+			OP=OP2;}
+			break;
+			
+		case 4:
+			cout << "informaçoes da peça"<< endl;	
+			cout<<	"DESEJA COMPRAR ?"<<endl;	
+			cin>> OP2;
+					
+			while(OP2!=1&&OP2!=0){
+			cout << "OPÇÃO INVALIDA, DIGITE NOVAMENTE: (1 pra sim/0 para não) : ";
+			cin>>OP2;}
+				
+				
+			if (OP2==1){
+			cout << "DIGITE A QUANTIDADE: ";
+			cin >> quant;
+			total=Biela*quant;
+			cout <<"o valor total é "<<total<< " reais";}
+				
+			else {
+			OP=OP2;}
+			break;
+			
+		case 5:
+			cout << "informaçoes da peça"<< endl;	
+			cout<<	"DESEJA COMPRAR ?"<<endl;	
+			cin>> OP2;
+					
+			while(OP2!=1&&OP2!=0){
+			cout << "OPÇÃO INVALIDA, DIGITE NOVAMENTE: (1 pra sim/0 para não) : ";
+			cin>>OP2;}
+				
+				
+			if (OP2==1){
+			cout << "DIGITE A QUANTIDADE: ";
+			cin >> quant;
+			total=Vibre*quant;
+			cout <<"o valor total é "<<total<< " reais";}
+				
+			else {
+			OP=OP2;}
+			break;
+			
+		case 6:
+			cout << "informaçoes da peça"<< endl;	
+			cout<<	"DESEJA COMPRAR ?"<<endl;	
+			cin>> OP2;
+					
+			while(OP2!=1&&OP2!=0){
+			cout << "OPÇÃO INVALIDA, DIGITE NOVAMENTE: (1 pra sim/0 para não) : ";
+			cin>>OP2;}
+				
+				
+			if (OP2==1){
+			cout << "DIGITE A QUANTIDADE: ";
+			cin >> quant;
+			total=Carter*quant;
+			cout <<"o valor total é "<<total<< " reais";}
+				
+			else {
+			OP=OP2;}			
+			break;	
 	}
+
   }
 }
