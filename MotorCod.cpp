@@ -13,7 +13,7 @@ Pistao=80;
 Biela=440;
 Vibre=230;
 Carter=40;
-
+ //allythy
  	
  while (OP==0){	
     cout << "                              ¦¦¦¦¦¦¦  .VENDA DE PEÇAS.  ¦¦¦¦¦¦¦"<<endl<<endl<<endl;
