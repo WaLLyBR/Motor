@@ -22,7 +22,9 @@ Carter=40;
 	cin >> OP;
  	cout << endl ;
  
- 	
+ while(OP>6){
+			cout << "OPÇÃO INVALIDA, DIGITE NOVAMENTE O PRODUTO DE 1 A 6 : ";
+			cin>>OP;}	
 
  	
 switch (OP){
