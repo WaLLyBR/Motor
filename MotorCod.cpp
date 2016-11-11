@@ -16,7 +16,7 @@ using namespace std;
  	
     cout << "                              ¦¦¦¦¦¦¦  .VENDA DE PEÇAS.  ¦¦¦¦¦¦¦"<<endl<<endl<<endl;
  	cout << "1. Vela de ignição (R$130,00)         "  << "2. Válvulas (R$800,00)           " << "3. Pistão (R$80,00)"<< endl<<endl<< "4. Biela (R$440,00)                   "<< "5. Virabrequim (R$230,00)        "<< "6. Cárter (R$40,00)"<< endl <<endl<<endl;
- 	cout << "Escolha a peça desejada para mais informaçoes, para isso ultilize o código da peça: ";
+ 	cout << "Escolha a peça desejada para mais informaçoes, para isso ultilize o número da peça: ";
 	cin >> OP;
  	cout << endl ;
  
