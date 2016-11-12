@@ -83,7 +83,7 @@ switch (OP){
 			cout <<"O valor total é: "<< "$" << total;}
 				
 			else {
-			OP=OP2;}
+			OP=0;}
 			break;
 			
 		case 4:
@@ -103,7 +103,7 @@ switch (OP){
 			cout <<"O valor total é: "<< "$" << total;}
 				
 			else {
-			OP=OP2;}
+			OP=0;}
 			break;
 			
 		case 5:
@@ -123,7 +123,7 @@ switch (OP){
 			cout <<"O valor total é: "<< "$" << total;}
 				
 			else {
-			OP=OP2;}
+			OP=0;}
 			break;
 			
 		case 6:
@@ -143,7 +143,7 @@ switch (OP){
 			cout <<"O valor total é: "<< "$" << total;}
 				
 			else {
-			OP=OP2;}			
+			OP=0;}			
 			break;	
 	}
 
