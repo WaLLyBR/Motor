@@ -21,7 +21,8 @@ while (OP==0) {
 
  while(OP>6){
 			cout << "OPÇÃO INVALIDA, DIGITE NOVAMENTE O PRODUTO DE 1 A 6 : ";
-			cin>>OP;}	
+			cin>>OP;}
+			cout << endl;	
 
  	
 switch (OP){
@@ -29,18 +30,21 @@ switch (OP){
 			cout << "Informaçoes da peça"<< endl;	
 			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: "	;
 			cin>> OP2;
+			cout << endl;
 
 					
 			while(OP2!='n'&&OP2!='s'){
 			cout << "OPÇÃO INVALIDA, DIGITE NOVAMENTE: ('s' pra sim e 'n' para não) : ";
 			cin>>OP2;}
+			cout << endl;
 				
 				
 			if (OP2=='s'){
 			cout << "DIGITE A QUANTIDADE: ";
 			cin >> quant;
+			cout << endl;
 			total=vela*quant;
-			cout <<"O valor total é: " << total<<"R$"<<endl<<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não: ";
+			cout <<"O valor total é: " << total<<"R$"<<endl << endl <<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não: ";
 			cin>>OP2;
 			
 			}
@@ -54,17 +58,20 @@ switch (OP){
 			cout << "Informaçoes da peça"<< endl;	
 			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: ";	
 			cin>> OP2;
+			cout << endl;
 					
 			while(OP2!='n'&&OP2!='s'){
 			cout << "OPÇÃO INVALIDA, DIGITE NOVAMENTE: ('s' pra sim e 'n' para não) : ";
 			cin>>OP2;}
+			cout << endl;
 				
 				
 			if (OP2=='s'){
 			cout << "DIGITE A QUANTIDADE: ";
 			cin >> quant;
+			cout << endl;
 			total=valvula*quant;
-			cout <<"O valor total é: " << total<<"R$"<<endl<<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não: ";
+			cout <<"O valor total é: " << total<<"R$"<< endl << endl <<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não: ";
 			cin>>OP2;}
 				
 			if (OP2=='n') {
@@ -75,17 +82,20 @@ switch (OP){
 			cout << "Informaçoes da peça"<< endl;	
 			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: ";	
 			cin>> OP2;
+			cout << endl;
 					
 			while(OP2!='n'&&OP2!='s'){
 			cout << "OPÇÃO INVALIDA, DIGITE NOVAMENTE: ('s' pra sim e 'n' para não) : ";
 			cin>>OP2;}
+			cout << endl;
 				
 				
 			if (OP2=='s'){
 			cout << "DIGITE A QUANTIDADE: ";
 			cin >> quant;
+			cout << endl;
 			total=pistao*quant;
-			cout <<"O valor total é: " << total<<"R$"<<endl<<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não: ";
+			cout <<"O valor total é: " << total<<"R$"<<endl << endl <<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não: ";
 			cin>>OP2;}
 				
 			if (OP2=='n') {
@@ -96,17 +106,20 @@ switch (OP){
 			cout << "Informaçoes da peça"<< endl;	
 			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: ";	
 			cin>> OP2;
+			cout << endl;
 					
 			while(OP2!='n'&&OP2!='s'){
 			cout << "OPÇÃO INVALIDA, DIGITE NOVAMENTE: ('s' pra sim e 'n' para não) : ";
 			cin>>OP2;}
+			cout << endl;
 				
 				
 			if (OP2=='s'){
 			cout << "DIGITE A QUANTIDADE: ";
 			cin >> quant;
+			cout << endl;
 			total=biela*quant;
-			cout <<"O valor total é: " << total<<"R$"<<endl<<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não: ";
+			cout <<"O valor total é: " << total<<"R$"<<endl << endl<<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não: ";
 			cin>>OP2;}
 				
 			if (OP2=='n') {
@@ -117,17 +130,20 @@ switch (OP){
 			cout << "Informaçoes da peça"<< endl;	
 			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: ";	
 			cin>> OP2;
+			cout << endl;
 					
 			while(OP2!='n'&&OP2!='s'){
 			cout << "OPÇÃO INVALIDA, DIGITE NOVAMENTE: ('s' pra sim e 'n' para não) : ";
 			cin>>OP2;}
+			cout << endl;
 				
 				
 			if (OP2=='s'){
 			cout << "DIGITE A QUANTIDADE: ";
 			cin >> quant;
+			cout << endl;
 			total=vibre*quant;
-			cout <<"O valor total é: " << total<<"R$"<<endl<<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não: ";
+			cout <<"O valor total é: " << total<<"R$"<<endl << endl <<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não: ";
 			cin>>OP2;}
 				
 			if (OP2=='n') {
@@ -138,17 +154,20 @@ switch (OP){
 			cout << "Informaçoes da peça"<< endl;	
 			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: ";	
 			cin>> OP2;
+			cout << endl;
 					
 			while(OP2!='n'&&OP2!='s'){
 			cout << "OPÇÃO INVALIDA, DIGITE NOVAMENTE: ('s' pra sim e 'n' para não) : ";
 			cin>>OP2;}
+			cout << endl;
 				
 				
 			if (OP2=='s'){
 			cout << "DIGITE A QUANTIDADE: ";
 			cin >> quant;
+			cout << endl;
 			total=carter*quant;
-			cout <<"O valor total é: " << total<<"R$"<<endl<<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não:  ";
+			cout <<"O valor total é: " << total<<"R$"<<endl << endl <<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não:  ";
 			cin>>OP2;}
 				
 			if (OP2=='n') {
