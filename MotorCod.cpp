@@ -49,7 +49,7 @@ switch (OP){
 			
 		case 2:
 			cout << "Informaçoes da peça"<< endl;	
-			cout<<	"DESEJA COMPRAR ?"<<endl;	
+			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: "<<endl;	
 			cin>> OP2;
 					
 			while(OP2!='n'&&OP2!='s'){
@@ -69,7 +69,7 @@ switch (OP){
 			
 		case 3:
 			cout << "Informaçoes da peça"<< endl;	
-			cout<<	"DESEJA COMPRAR ?"<<endl;	
+			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: "<<endl;	
 			cin>> OP2;
 					
 			while(OP2!='n'&&OP2!='s'){
@@ -89,7 +89,7 @@ switch (OP){
 			
 		case 4:
 			cout << "Informaçoes da peça"<< endl;	
-			cout<<	"DESEJA COMPRAR ?"<<endl;	
+			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: "<<endl;	
 			cin>> OP2;
 					
 			while(OP2!='n'&&OP2!='s'){
@@ -109,7 +109,7 @@ switch (OP){
 			
 		case 5:
 			cout << "Informaçoes da peça"<< endl;	
-			cout<<	"DESEJA COMPRAR ?"<<endl;	
+			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: "<<endl;	
 			cin>> OP2;
 					
 			while(OP2!='n'&&OP2!='s'){
@@ -129,7 +129,7 @@ switch (OP){
 			
 		case 6:
 			cout << "Informaçoes da peça"<< endl;	
-			cout<<	"DESEJA COMPRAR ?"<<endl;	
+			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: "<<endl;	
 			cin>> OP2;
 					
 			while(OP2!='n'&&OP2!='s'){
@@ -149,4 +149,3 @@ switch (OP){
 	}
 
   }
-
