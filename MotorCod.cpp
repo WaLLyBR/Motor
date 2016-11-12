@@ -39,9 +39,12 @@ switch (OP){
 			cout << "DIGITE A QUANTIDADE: ";
 			cin >> quant;
 			total=vela*quant;
-			cout <<"O valor total é: " << "$" << total;}
+			cout <<"O valor total é: " << total<<"R$"<<endl<<"FINALIZAR COMPRA? "<<endl;
+			cin>>OP2;
+			
+			}
 				
-			else {
+			if (OP2=='n') {
 			OP=0;}
 	break;	
 		
@@ -60,9 +63,10 @@ switch (OP){
 			cout << "DIGITE A QUANTIDADE: ";
 			cin >> quant;
 			total=valvula*quant;
-			cout <<"O valor total é: "<< "$" << total;}
+			cout <<"O valor total é: " << total<<"R$"<<endl<<"FINALIZAR COMPRA? "<<endl;
+			cin>>OP2;}
 				
-			else {
+			if (OP2=='n') {
 			OP=0;}
 			break;
 			
@@ -80,9 +84,10 @@ switch (OP){
 			cout << "DIGITE A QUANTIDADE: ";
 			cin >> quant;
 			total=pistao*quant;
-			cout <<"O valor total é: "<< "$" << total;}
+			cout <<"O valor total é: " << total<<"R$"<<endl<<"FINALIZAR COMPRA? "<<endl;
+			cin>>OP2;}
 				
-			else {
+			if (OP2=='n') {
 			OP=0;}
 			break;
 			
@@ -100,9 +105,10 @@ switch (OP){
 			cout << "DIGITE A QUANTIDADE: ";
 			cin >> quant;
 			total=biela*quant;
-			cout <<"O valor total é: "<< "$" << total;}
+			cout <<"O valor total é: " << total<<"R$"<<endl<<"FINALIZAR COMPRA? "<<endl;
+			cin>>OP2;}
 				
-			else {
+			if (OP2=='n') {
 			OP=0;}
 			break;
 			
@@ -120,9 +126,10 @@ switch (OP){
 			cout << "DIGITE A QUANTIDADE: ";
 			cin >> quant;
 			total=vibre*quant;
-			cout <<"O valor total é: "<< "$" << total;}
+			cout <<"O valor total é: " << total<<"R$"<<endl<<"FINALIZAR COMPRA? "<<endl;
+			cin>>OP2;}
 				
-			else {
+			if (OP2=='n') {
 			OP=0;}
 			break;
 			
@@ -140,9 +147,10 @@ switch (OP){
 			cout << "DIGITE A QUANTIDADE: ";
 			cin >> quant;
 			total=carter*quant;
-			cout <<"O valor total é: "<< "$" << total;}
+			cout <<"O valor total é: " << total<<"R$"<<endl<<"FINALIZAR COMPRA? "<<endl;
+			cin>>OP2;}
 				
-			else {
+			if (OP2=='n') {
 			OP=0;}			
 			break;	
 	}
