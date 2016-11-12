@@ -5,19 +5,18 @@ using namespace std;
  	setlocale(LC_ALL, "Portuguese");
  	
  	// opção do usuario
- 	int OP;
+ 	int OP=0;
  	char OP2;
  	 
  	// para armazenar valor e quantidade        
  	float total, quant, vela =130, valvula=130, pistao=800, biela=440, vibre=230, carter=40; 
- OP='n';	
-while (OP=='n') {	
+ OP;	
+while (OP==0) {	
     cout << "                              ¦¦¦¦¦¦¦  .VENDA DE PEÇAS.  ¦¦¦¦¦¦¦"<<endl<<endl<<endl;
  	cout << "1. Vela de ignição (R$130,00)         "  << "2. Válvulas (R$800,00)           " << "3. Pistão (R$80,00)"<< endl<<endl<< "4. Biela (R$440,00)                   "<< "5. Virabrequim (R$230,00)        "<< "6. Cárter (R$40,00)"<< endl <<endl<<endl;
  	cout << "Escolha a peça desejada para mais informaçoes, para isso ultilize o número da peça: ";
 	cin >> OP;
- 	cout << endl ;
-} 
+ 	cout << endl ; 
 
 
  while(OP>6){
@@ -43,8 +42,8 @@ switch (OP){
 			cout <<"O valor total é: " << "$" << total;}
 				
 			else {
-			OP=OP2;}
-			break;	
+			OP=0;}
+	break;	
 		
 			
 		case 2:
@@ -64,7 +63,7 @@ switch (OP){
 			cout <<"O valor total é: "<< "$" << total;}
 				
 			else {
-			OP=OP2;}
+			OP=0;}
 			break;
 			
 		case 3:
@@ -149,3 +148,4 @@ switch (OP){
 	}
 
   }
+}
